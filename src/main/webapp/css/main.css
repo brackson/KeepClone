@@ -1,0 +1,18 @@
+.navbar-nav .dropdown-menu {
+    position: static !important;
+}
+
+.nav-item i {
+	margin-right: 1.5rem;
+}
+
+form#take-a-note .row i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+hr {
+	margin-bottom: 0.1rem;
+}
+
