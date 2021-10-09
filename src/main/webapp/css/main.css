@@ -16,3 +16,27 @@ hr {
 	margin-bottom: 0.1rem;
 }
 
+.note {
+	padding: .375rem .75rem; /* copied from input padding */
+	margin-bottom: 1rem;
+}
+
+.note .title:before { content:" "; float:right; width:1.5rem; height:1rem; }
+
+.note .title {
+	font-weight: bold;
+}
+
+.note .title, .note .note-content {
+	overflow-wrap: anywhere;
+}
+
+.note .dropdown > i, .note .pinned-icon {
+	position: absolute;
+	/*top: .375rem;*/
+	right: .75rem;
+}
+
+.note .dropdown .dropdown-item i {
+	margin-right: 1rem;
+}
